@@ -21,12 +21,11 @@ config['SLACK_MENTION_REGEX'] = "^<@(|[WU].+?)>(.*)"
 my_bot = Slackish(SlackClient, Command.registry, **config)
 my_bot.serve()
 ```
-Instlation Procces
+<h2>Instlation Procces</h2>
 <hr>
-<h3>Create your own app</h3> 
-
-Open your slack channel 
-Select bots
+<h3> Open your slack channel 
+<br>Select bots
+</h3>
 <img src="info/Selection_001.png">
 <h3>Create your app</h3> 
 <img src="info/Selection_002.png">
