@@ -26,8 +26,8 @@ Instlation Procces
 Create your own app 
 
 Frist step open your slack channel 
-select botz
-<img src="slackish/info/Selection_001.png"></>
+select bots
+<img src="info/Selection_001.png"></>
 Create your app
 Get the access tokens and connect it to your code
 ```
