@@ -21,3 +21,18 @@ config['SLACK_MENTION_REGEX'] = "^<@(|[WU].+?)>(.*)"
 my_bot = Slackish(SlackClient, Command.registry, **config)
 my_bot.serve()
 ```
+Instlation Procces
+<hr>
+Create your own app 
+
+Frist step open your slack channel 
+select botz
+<img src="slackish/info/Selection_001.png">
+Create your app
+Get the access tokens and connect it to your code
+```
+config['SLACK_BOT_TOKEN'] = 'Add Your access API Token'
+```
+after running the code above
+
+check that your app is Active on Slack 
