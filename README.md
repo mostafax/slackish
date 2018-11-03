@@ -23,13 +23,16 @@ my_bot.serve()
 ```
 Instlation Procces
 <hr>
-<h3>1)Create your own app</h3> 
+<h3>Create your own app</h3> 
 
 Open your slack channel 
 Select bots
 <img src="info/Selection_001.png">
 Create your app
+<img src="info/Selection_002.png">
+
 Get the access tokens and connect it to your code
+<img src="info/Selection_004.png">
 
 ```
 config['SLACK_BOT_TOKEN'] = 'Add Your access API Token'
