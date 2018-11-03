@@ -28,10 +28,10 @@ Instlation Procces
 Open your slack channel 
 Select bots
 <img src="info/Selection_001.png">
-Create your app
+<h3>Create your app</h3> 
 <img src="info/Selection_002.png">
 
-Get the access tokens and connect it to your code
+<h3>Get the access tokens and connect it to your code</h3> 
 <img src="info/Selection_004.png">
 
 ```
