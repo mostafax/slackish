@@ -2,8 +2,9 @@ Slackish
 ========
 Slackish is small library that lets you convert your simple python functions into running slack bots.
 
-Sample Bot
------
+sample_bot.py
+-------------
+
 ```python
 from slackclient import SlackClient
 from slackish import Slackish, Command
@@ -34,7 +35,7 @@ config['SLACK_MENTION_REGEX'] = "^(<@(|[WU].+?)>)?(.*)"
 my_bot = Slackish(SlackClient, Command.registry, **config)
 my_bot.serve()
 ```
-<h2>Installation</h2>
+<h2>Configure the token</h2>
 <hr>
 <h3> Open your slack channel 
 <br>Select bots
@@ -49,14 +50,14 @@ my_bot.serve()
 ```
 config['SLACK_BOT_TOKEN'] = 'Add Your access API Token'
 ```
-after running the code above
-
-check that your app is Active on Slack 
-<hr>
-
-<h4>Help needed!!</h4>
-Don't worry we handeled it
-<img src="info/Selection_0055.png">
+And run the bot
+```
+virtualenv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python sample_bot.py
+```
+Not sure what to tell your bot? Don't worry Slackish generate help messages based on the docstring!
 <img src="info/Selection_005.png">
-<img src="info/Selection_006.png">
+
 
